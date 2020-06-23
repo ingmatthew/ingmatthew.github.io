@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(-45deg,  #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    
+    font-family: 'Calibri', sans-serif;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: black; 
+}
+
+.top h1 {
+    color: black;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.about h2 {
+    color: black;
+    font-size: 30px;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.projects h2 {
+    color: black;
+    font-size: 30px;
+    justify-content: left;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+footer {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+    width: 90%;
+    left: 50px;
+  }
+  
+  .topnav a {
+    position: relative;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  #myTopnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  
+/*---------------------------Changing Text-------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size: 20px;
+  text-align:center;
+  height:200px;
+  width:600px;
+  position:absolute;
+  color: black;
+  top:100px;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+/*---------------------------Changing Text-------------------------------*/
+
+
+/*---------------------------Name icon-------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
