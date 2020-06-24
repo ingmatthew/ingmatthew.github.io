@@ -1,7 +1,4 @@
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
     background: linear-gradient(-45deg,  #e73c7e, #23a6d5, #23d5ab);
@@ -63,6 +60,7 @@ body {
   top: 80px;
 }
 
+
 .projects h2 {
   position: relative;
   color: black;
@@ -73,7 +71,7 @@ body {
 
 .projects-content {
   position: relative;
-  left: 200px;
+  /*left: 1000px;*/
 }
 
 
@@ -86,7 +84,12 @@ footer {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   line-height: 20px;
-
+  position: relative;
+  top: 100px;
+  padding: 3px;
+  border: solid;
+  border-color:#fff;
+  border-width: 10px;
 }
 
 .contact-content {
@@ -98,6 +101,7 @@ footer {
     position: relative;
     overflow: hidden;
     background-color: #333;
+    height: 63px;
     width: 90%;
     left: 70px;
   }
@@ -107,16 +111,24 @@ footer {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 16px;
+    padding: 12px 25px;
     text-decoration: none;
     font-size: 24px;
   }
 
-  #myTopnav a:hover {
+  #nav-headers a:hover {
     background-color: #ddd;
     color: black;
   }
 
+  .profile-links {
+    position: relative;
+    float:left;
+  }
+
+  #profile-links a:hover {
+    background-color: #ddd;
+  }
   
 /*---------------------------Changing Text-------------------------------*/
 
@@ -127,13 +139,13 @@ footer {
 .console-container {
  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   text-align:center;
   height:200px;
   width:600px;
   position:absolute;
   color: black;
-  top:200px;
+  top:110px;
   bottom:0;
   left:0;
   right:0;
@@ -146,9 +158,9 @@ footer {
   left:10px;
 }
 
-/*---------------------------Changing Text-------------------------------*/
+/*---------------------------Changing Text End -------------------------------*/
 
-.divider {
+.divider-about {
   border-top: 3px solid black;
   position: absolute;
   left: 50%;
@@ -159,6 +171,17 @@ footer {
   top: 100px;
 }
 
+.divider-projects {
+  border-top: 3px solid black;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  position: relative;
+  top: -30px;
+}
+
 /*---------------------------Name icon-------------------------------*/
 
 a:link, a:visited {
@@ -166,9 +189,13 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: blue;
+  color: purple;
 }
 
 #header {
   overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
