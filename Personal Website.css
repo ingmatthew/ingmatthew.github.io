@@ -71,7 +71,80 @@ body {
 
 .projects-content {
   position: relative;
-  /*left: 1000px;*/
+  left: 200px;
+}
+
+.foods {
+  height: 800px;
+}
+
+.foods h2 {
+  position: relative;
+  color: black;
+  left: 200px;
+  top: 20px;
+  font-size: 48px;
+  flex-wrap: wrap;
+  
+}
+
+.foods h3 {
+  font-size: 30px;
+}
+
+.foods h4 {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.q-eats-content {
+  position: relative;
+  left: 200px;
+}
+
+.recommend-content {
+  position: relative;
+  left: 200px;
+}
+
+.List2 {
+  position: relative;
+  top: -162px;
+  left: 350px;
+}
+
+.List3 {
+  position: relative;
+  top: -323px;
+  left: 750px;
+}
+.List3.h4 {
+  text-align:center
+}
+
+.pizza {
+  position: relative;
+  top: -10px;
+  left: -40px;
+  font-size: 20px;
+  line-height: 90%;
+}
+
+.burger {
+  position: relative;
+  top: -10px;
+  left: -40px;
+  font-size: 20px;
+  line-height: 90%;
+}
+
+.fried-chicken {
+  position: relative;
+  top: -10px;
+  left: -40px;
+  font-size: 20px;
+  line-height: 90%;
 }
 
 
@@ -85,11 +158,9 @@ footer {
   transform: translate(-50%, -50%);
   line-height: 20px;
   position: relative;
-  top: 100px;
-  padding: 3px;
-  border: solid;
-  border-color:#fff;
-  border-width: 10px;
+  padding: 5px;
+  top: 50px;
+
 }
 
 .contact-content {
@@ -101,7 +172,7 @@ footer {
     position: relative;
     overflow: hidden;
     background-color: #333;
-    height: 63px;
+    height: 67px;
     width: 90%;
     left: 70px;
   }
@@ -145,7 +216,7 @@ footer {
   width:600px;
   position:absolute;
   color: black;
-  top:110px;
+  top:140px;
   bottom:0;
   left:0;
   right:0;
@@ -179,7 +250,18 @@ footer {
   transform: translate(-50%, -50%);
   width: 80%;
   position: relative;
-  top: -30px;
+  top: -20px;
+}
+
+.divider-food {
+  border-top: 3px solid black;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  position: relative;
+  top: 10px;
 }
 
 /*---------------------------Name icon-------------------------------*/
@@ -199,3 +281,5 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+
