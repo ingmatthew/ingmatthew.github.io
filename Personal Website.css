@@ -120,6 +120,7 @@ body {
   top: -323px;
   left: 650px;
 }
+
 .List3.h4 {
   text-align:center
 }
@@ -283,7 +284,7 @@ img {
   width:600px;
   position:absolute;
   color: black;
-  top:140px;
+  top:220px;
   bottom:0;
   left:0;
   right:0;
