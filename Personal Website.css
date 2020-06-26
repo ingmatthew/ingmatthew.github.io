@@ -50,9 +50,19 @@ body {
 
 .about-content {
   position: relative;
-  top: -300px;
-  left: 600px;
+  top: -250px;
+  left: 500px;
 }
+
+.about-content-top {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: bold;
+  position: relative;
+  top: -20px;
+  left: -10px;
+}
+
 
 .profile {
   position: relative;
@@ -60,11 +70,11 @@ body {
   top: 80px;
 }
 
-
 .projects h2 {
   position: relative;
   color: black;
   left: 200px;
+  top:-60px;
   font-size: 48px;
   flex-wrap: wrap;
 }
@@ -72,6 +82,7 @@ body {
 .projects-content {
   position: relative;
   left: 200px;
+  top:-60px;
 }
 
 .foods {
@@ -313,7 +324,7 @@ img {
   transform: translate(-50%, -50%);
   width: 80%;
   position: relative;
-  top: -20px;
+  top: -90px;
 }
 
 .divider-food {
