@@ -83,6 +83,12 @@ body {
   position: relative;
   left: 200px;
   top:-60px;
+  width: 70%;
+}
+
+.projects-content p{
+  position: relative;
+  top:-20px;
 }
 
 .foods {
