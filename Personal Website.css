@@ -28,6 +28,7 @@ body {
     color: black; 
     overflow-x: hidden;
 
+
 }
 
 .top h1 {
@@ -70,6 +71,7 @@ body {
   top: 80px;
 }
 
+
 .projects h2 {
   position: relative;
   color: black;
@@ -83,13 +85,81 @@ body {
   position: relative;
   left: 200px;
   top:-60px;
-  width: 70%;
+  width: 60%;
 }
 
 .projects-content p{
   position: relative;
   top:-20px;
 }
+
+.project-pics {
+  position: relative;
+ top: -30px;
+ width: 750px;
+ height: 230px;
+ opacity: 0.6;
+}
+
+.project-pics:hover {
+ opacity: 0.95;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(131, 130, 130);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  top: -88px;
+  left: 580px;
+  opacity: 0.8;
+}
+
+.button a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Biome';
+  color: beige;
+}
+
+.button a:after {
+  content: '      \2192';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover a {
+  padding-right: 20px;
+  color: black;
+}
+
+.button:hover {
+  padding-right: -10px;
+  color: black;
+  opacity: 0.95;
+}
+
+.button:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 .foods {
   height: 800px;
@@ -294,9 +364,9 @@ img {
   text-align:center;
   height:200px;
   width:600px;
-  position:absolute;
   color: black;
-  top:180px;
+  position: relative;
+  top:100px;
   bottom:0;
   left:0;
   right:0;
@@ -433,3 +503,13 @@ left: 280px;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+body{
+  min-width:300px;
+}
+
+.all {
+  position: relative;
+  top:-100px;
+}
+
