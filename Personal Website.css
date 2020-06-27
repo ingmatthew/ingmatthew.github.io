@@ -46,12 +46,12 @@ body {
     left: 200px;
     font-size: 48px;
     flex-wrap: wrap;
-    top: 100px;
+    top: 80px;
 }
 
 .about-content {
   position: relative;
-  top: -250px;
+  top: -260px;
   left: 500px;
 }
 
@@ -60,7 +60,7 @@ body {
   font-style: italic;
   text-decoration: bold;
   position: relative;
-  top: -20px;
+  top: -30px;
   left: -10px;
 }
 
@@ -68,7 +68,7 @@ body {
 .profile {
   position: relative;
   left: 120px;
-  top: 80px;
+  top: 60px;
 }
 
 
@@ -79,6 +79,7 @@ body {
   top:-60px;
   font-size: 48px;
   flex-wrap: wrap;
+  margin-bottom: 70px;
 }
 
 .projects-content {
@@ -92,6 +93,13 @@ body {
   position: relative;
   top:-20px;
 }
+
+.P1 {
+  margin-top: -70px;
+  margin-bottom: -70px;
+}
+
+
 
 .project-pics {
   position: relative;
@@ -245,8 +253,10 @@ footer {
   transform: translate(-50%, -50%);
   line-height: 20px;
   position: relative;
-  padding: 5px;
-  top: 900px;
+  padding: 1px;
+  padding-top: 2px;
+  top: 800px;
+  margin-bottom: -5px;
 }
 
 .contacts-content {
@@ -256,6 +266,7 @@ footer {
 
 .contacts-title {
   position: relative;
+  font-size: 30px;
 }
 
 .topnav {
@@ -389,7 +400,7 @@ img {
   transform: translate(-50%, -50%);
   width: 80%;
   position: relative;
-  top: 100px;
+  top: 70px;
 }
 
 .divider-projects {
@@ -400,7 +411,7 @@ img {
   transform: translate(-50%, -50%);
   width: 80%;
   position: relative;
-  top: -90px;
+  top: -100px;
 }
 
 .divider-food {
