@@ -96,7 +96,9 @@ body {
   line-height: 90%;
   text-decoration: none;
   margin-top: 90px;
+  margin-bottom: 5px;
 }
+
 
 .p-text{
   position: relative;
@@ -149,7 +151,7 @@ opacity: 0.3;
   position: relative;
   top:-280px;
   left: 50px;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .button a {
@@ -218,9 +220,15 @@ opacity: 0.3;
   left: 200px;
 }
 
+.intro {
+  margin-top: -20px;
+  width: 80%;
+}
+
 .recommend-content {
   position: relative;
   left: 200px;
+  top: 50px;
 }
 
 .List2 {
