@@ -256,7 +256,7 @@
       position: relative;
       padding: 1px;
       padding-top: 2px;
-      top: 800px;
+      top: 1000px;
       margin-bottom: -5px;
     }
     
@@ -328,7 +328,7 @@
     /* Six columns side by side */
     .column {
       float: left;
-      width: 15%;
+      width: 10%;
     }
     
     /* Add a transparency effect for thumnbail images */
@@ -399,7 +399,6 @@
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
-      width: 80%;
       position: relative;
       top: 70px;
     }
@@ -410,7 +409,6 @@
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
-      width: 80%;
       position: relative;
       top: -100px;
     }
@@ -477,7 +475,6 @@
     .text {
       color: black;
       font-size: 15px;
-      width: 100%;
       text-align: center;
     }
     
