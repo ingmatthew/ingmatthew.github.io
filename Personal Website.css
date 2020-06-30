@@ -27,8 +27,6 @@ body {
     font-weight: 400;
     color: black; 
     overflow-x: hidden;
-
-
 }
 
 .top h1 {
@@ -71,7 +69,6 @@ body {
   top: 60px;
 }
 
-
 .projects h2 {
   position: relative;
   color: black;
@@ -98,7 +95,6 @@ body {
   margin-top: 90px;
   margin-bottom: 5px;
 }
-
 
 .p-text{
   position: relative;
@@ -317,7 +313,7 @@ footer {
   }
 
   #nav-headers a:hover {
-    background-color: #ddd;
+    background-color: #7c7c7c;
     color: black;
   }
 
@@ -327,7 +323,7 @@ footer {
   }
 
   #profile-links a:hover {
-    background-color: #ddd;
+    background-color: #7c7c7c;
   }
 
 /*---------------------------Gallery Start-------------------------------*/
@@ -523,7 +519,6 @@ left: 280px;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-
 }
 
 .active, .dot:hover {
@@ -541,6 +536,69 @@ left: 280px;
   position: absolute;
   width: 100%;
 }
+
+/*--------------------------- Sidebar  -------------------------------*/
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #7c7c7c;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 40px;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  z-index: -1;
+}
+
+.openbtn:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+#nav-button {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/*--------------------------- Sidebar End  -------------------------------*/
 
 @-webkit-keyframes fade {
   from {opacity: .4}
