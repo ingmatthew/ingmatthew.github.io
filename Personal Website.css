@@ -26,7 +26,39 @@ body {
     line-height: 1.8;
     font-weight: 400;
     color: black; 
-    overflow-x: hidden;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+  height: 67px;
+  width: 90%;
+  left: 70px;
+}
+
+.topnav a {
+  position: relative;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#nav-headers a:hover {
+  background-color: #7c7c7c;
+  color: black;
+}
+
+.profile-links {
+  position: relative;
+  float:left;
+}
+
+#profile-links a:hover {
+  background-color: #7c7c7c;
 }
 
 .top h1 {
@@ -37,20 +69,23 @@ body {
     align-items: flex-end;
     flex-wrap: wrap;
 }
+.about {
+position: relative;
+left: 15%;
+}
 
 .about h2 {
     position: relative;
     color: black;
-    left: 200px;
     font-size: 48px;
-    flex-wrap: wrap;
     top: 80px;
 }
 
 .about-content {
+  width: 600px;
   position: relative;
   top: -260px;
-  left: 500px;
+  left: 330px;
 }
 
 .about-content-top {
@@ -62,52 +97,46 @@ body {
   left: -10px;
 }
 
-
 .profile {
   position: relative;
-  left: 120px;
+  left: -70px;
   top: 60px;
 }
 
-.projects h2 {
+.projects {
   position: relative;
-  color: black;
-  left: 200px;
-  top:-60px;
-  font-size: 48px;
-  flex-wrap: wrap;
+  left: 15%;
 }
 
-.projects-content {
-  position: relative;
-  left: 200px;
-  top:50px;
-  width: 60%;
+.projects h2 {
+  color: black;
+  font-size: 48px;
+  margin-bottom: 180px;
 }
 
 .projects-content h3{
   position: relative;
   color: black;
   font-size: 40px;
-  top: -40px;
   line-height: 90%;
   text-decoration: none;
   margin-top: 90px;
-  margin-bottom: 5px;
 }
 
 .p-text{
   position: relative;
   left: 50px;
-  width: 70%;
-  top:-280px;
+  width: 60%;
+  top:-235px;
   opacity: 0;
   transition: .5s ease;
 }
 
 .P1 {
-  margin-top: -100px;
-  margin-bottom: -250px;
+  margin-top: -150px;
+  margin-bottom: -100px;
+  width: 1000px;
+  height: 350px;
 }
 
 .P1:hover .project-pics {
@@ -121,16 +150,19 @@ opacity: 0.3;
 .project-pics {
   position: relative;
   top: -30px;
-  width: 750px;
-  height: 230px;
+  width: 75%;
+  height: 60%;
   opacity: 0.95;
   border: solid #333;
   border-width: 3px;
-  margin-bottom: 30px;
   transition: .5s ease;
   z-index: -1;
 }
-
+/* @media only screen and (min-width: 2800px) {
+  .project-pics {
+    height: 1%;
+  }
+} */
 
 .button {
   border-radius: 4px;
@@ -145,7 +177,7 @@ opacity: 0.3;
   cursor: pointer;
   margin: 5px;
   position: relative;
-  top:-280px;
+  top:-240px;
   left: 50px;
   opacity: 1;
 }
@@ -188,16 +220,16 @@ opacity: 0.3;
 
 
 .foods {
-  height: 800px;
+  position: relative;
+  left: 15%;
 }
 
 .foods h2 {
   position: relative;
   color: black;
-  left: 200px;
-  top: 20px;
   font-size: 48px;
   flex-wrap: wrap;
+  margin-bottom: -20px;
 }
 
 .foods h3 {
@@ -208,12 +240,6 @@ opacity: 0.3;
   font-weight: bold;
   font-size: 24px;
   text-decoration: underline;
-  top: 30px;
-}
-
-.q-eats-content {
-  position: relative;
-  left: 200px;
 }
 
 .intro {
@@ -223,108 +249,54 @@ opacity: 0.3;
 
 .recommend-content {
   position: relative;
-  left: 200px;
   top: 50px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 25% 30% 25% auto;
+  grid-template-rows: 150px auto;
+  text-align: left;
 }
 
-.List2 {
-  position: relative;
-  top: -162px;
-  left: 290px;
+.recommend-content h4 {
+  justify-self: center;
 }
 
-.List3 {
-  position: relative;
-  top: -323px;
-  left: 650px;
+.recommend-content-top {
+grid-column: 1/ span all;
+margin-bottom: -100px;
 }
 
-.List3.h4 {
-  text-align:center
+.List1{
+  grid-column: 1;
+  grid-row: 2;
 }
 
-.pizza {
-  position: relative;
-  top: -10px;
-  left: -40px;
-  font-size: 20px;
-  line-height: 90%;
+.List2{
+  grid-column: 2;
+  grid-row: 2;
 }
 
-.burger {
-  position: relative;
-  top: -10px;
-  left: -40px;
-  font-size: 20px;
-  line-height: 90%;
+.List3{
+  grid-column: 3;
+  grid-row: 2;
 }
 
-.fried-chicken {
-  position: relative;
-  top: -10px;
-  left: -40px;
-  font-size: 20px;
-  line-height: 90%;
-}
-
-footer {
-  background-color: #333;
-  color: #f2f2f2;
-  width: 90%;
-  position: absolute;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  line-height: 20px;
-  position: relative;
-  padding: 1px;
-  padding-top: 2px;
-  top: 800px;
-  margin-bottom: -5px;
-}
 
 .contacts-content {
+  background-color: #333;
+  color: #f2f2f2;
+  line-height: 20px;
   position: relative;
-  left: 50px;
+  padding: 20px;
+  padding-top: 2px;
+  font-size: 24px;
 }
 
-.contacts-title {
-  position: relative;
-  font-size: 30px;
+.contacts-content h4 {
+font-size: 30px;
 }
 
-.topnav {
-    position: relative;
-    overflow: hidden;
-    background-color: #333;
-    height: 67px;
-    width: 90%;
-    left: 70px;
-  }
-  
-  .topnav a {
-    position: relative;
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 12px 25px;
-    text-decoration: none;
-    font-size: 24px;
-  }
 
-  #nav-headers a:hover {
-    background-color: #7c7c7c;
-    color: black;
-  }
-
-  .profile-links {
-    position: relative;
-    float:left;
-  }
-
-  #profile-links a:hover {
-    background-color: #7c7c7c;
-  }
 
 /*---------------------------Gallery Start-------------------------------*/
 img {
@@ -332,8 +304,9 @@ img {
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.feature-dishes {
   position: relative;
+  width: 100%;
 }
 
 /* Hide the images by default */
@@ -347,12 +320,20 @@ img {
   display: table;
   clear: both;
 }
+.column img {
+  width: 185px;
+  height: 185px;
+  }
+
 
 /* Six columns side by side */
 .column {
   float: left;
   width: 15%;
+  max-width: 500px;
 }
+
+
 
 /* Add a transparency effect for thumnbail images */
 .demo {
@@ -436,6 +417,7 @@ img {
   width: 80%;
   position: relative;
   top: -100px;
+  margin-bottom: -100px;
 }
 
 
@@ -472,10 +454,10 @@ html {
 /*---------------------------Slide Show-------------------------------*/
 
 .slideshow-container {
-width: 30%;
-position: relative;
-top:0px;
-left: 280px;
+  vertical-align: middle;
+  position: relative;
+  width: 295px;
+  left: 23%;
 }
 
 .mySlides {
@@ -492,6 +474,7 @@ left: 280px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   padding: -100px;
+  
 }
 
 .next {
@@ -502,8 +485,12 @@ left: 280px;
 .text {
   color: black;
   font-size: 15px;
-  width: 100%;
   text-align: center;
+  height: 80px;
+  line-height: 20px;
+  position: relative;
+  left: 3%;
+  width: 360px;
 }
 
 .numbertext {
@@ -534,7 +521,9 @@ left: 280px;
 
 .change-pic {
   position: absolute;
+  top: 460px;
   width: 100%;
+  left: 14%
 }
 
 /*--------------------------- Sidebar  -------------------------------*/
@@ -594,7 +583,6 @@ left: 280px;
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1;
 }
 
@@ -613,7 +601,7 @@ left: 280px;
 
 
 body{
-  min-width:300px;
+overflow-x: hidden;
 }
 
 .all {
@@ -621,3 +609,8 @@ body{
   top:-100px;
 }
 
+/* * {
+  outline-style: dashed;
+  outline-color: red;
+}
+ */
