@@ -95,6 +95,7 @@ left: 15%;
 .profile {
   position: relative;
   top: 60px;
+  left: -72px;
 }
 
 .projects {
