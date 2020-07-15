@@ -26,6 +26,7 @@ body {
 @media only screen and (max-width: 768px){
   .topnav{
     position: relative;
+    z-index: 1;
   }
   
 }
@@ -38,6 +39,7 @@ body {
   padding: 12px 25px;
   text-decoration: none;
   font-size: 24px;
+  z-index: 1;
 }
 
 #nav-headers a:hover {
@@ -231,6 +233,7 @@ opacity: 0.3;
 .foods {
   position: relative;
   left: 15%;
+  top: 100px;
 }
 
 .foods h2 {
@@ -258,12 +261,13 @@ opacity: 0.3;
 
 .recommend-content {
   position: relative;
-  top: 50px;
+  top: 100px;
   width: 1200px;
   display: grid;
   grid-template-columns: 25% 30% 25% auto;
   grid-template-rows: 150px auto;
   text-align: left;
+  margin-bottom: 200px;
 }
 
 .recommend-content h4 {
@@ -326,7 +330,6 @@ img {
 }
 
 
-
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -358,10 +361,6 @@ img {
 }
 
 
-
-
-
-
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.7;
@@ -376,7 +375,7 @@ img {
   position: relative;
   background-color: #333;
   top: -10px;
-  height: 95px;
+  height: 65px;
   line-height: 15px;
   padding: 1px;
   width: 176px;
@@ -466,11 +465,11 @@ img {
 
 /*---------------------------Name icon-------------------------------*/
 
-a:link, a:visited {
+.profile a:link, a:visited {
   color: black;
 }
 
-a:hover {
+.profile a:hover {
   color: purple;
 }
 
@@ -484,11 +483,17 @@ html {
 
 /*---------------------------Slide Show-------------------------------*/
 
-.slideshow-container {
+
+.June-container {
   vertical-align: middle;
   position: relative;
   width: 295px;
   left: 23%;
+}
+
+.July-container {
+  position: relative;
+  width: 295px;
 }
 
 .mySlides {
@@ -497,19 +502,17 @@ html {
 
 .prev, .next {
   cursor: pointer;
-  position: absolute;
   color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  padding: -100px;
-  
+  padding: 100px;
+  vertical-align: middle;
 }
 
 .next {
-  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -551,11 +554,10 @@ html {
 }
 
 .change-pic {
-  position: absolute;
-  top: 460px;
-  width: 100%;
-  left: 14%
+  position: relative;
+  vertical-align: middle;
 }
+
 
 /*--------------------------- Sidebar  -------------------------------*/
 @media only screen and (max-width: 768px) {
