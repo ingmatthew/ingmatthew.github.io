@@ -252,6 +252,7 @@ opacity: 0.3;
   font-weight: bold;
   font-size: 24px;
   text-decoration: underline;
+  top: -50px;;
 }
 
 .intro {
@@ -261,12 +262,13 @@ opacity: 0.3;
 
 .recommend-content {
   position: relative;
+  top: -50px;
   width: 1200px;
   display: grid;
   grid-template-columns: 25% 30% 25% auto;
   grid-template-rows: 150px auto;
   text-align: left;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .recommend-content h4 {
@@ -345,7 +347,6 @@ img {
   width: 185px;
   height: 185px;
   }
-
 
 
 /* Six columns side by side */
