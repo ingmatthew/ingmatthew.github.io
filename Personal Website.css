@@ -10,7 +10,8 @@ body {
 
 @media only screen and (max-width: 768px){
   body{
-    width: 325%;
+    width: 380%;
+    overflow-y: scroll;
   }
 }
 
@@ -83,7 +84,9 @@ left: 15%;
   position: relative;
   top: -260px;
   left: 330px;
+  color: black;
 }
+
 
 .about-content-top {
   font-weight: bold;
@@ -313,7 +316,8 @@ font-size: 30px;
 
 @media only screen and (max-width: 768px) {
   .contacts-content {
-    height: 300px;
+    width: 100%;
+    padding-top: -50px;
   }
 }
 
