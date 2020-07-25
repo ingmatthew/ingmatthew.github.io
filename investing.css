@@ -1,0 +1,29 @@
+.investing {
+    position: relative;
+    left: 15%;
+    width: 70%;
+  }
+
+.investing h4{
+    margin-bottom: -20px;
+}
+  
+.investing h2 {
+position: relative;
+color: black;
+font-size: 48px;
+flex-wrap: wrap;
+margin-bottom: -20px;
+}
+
+.investing h3 {
+font-size: 30px;
+margin-bottom: -10px;
+}
+
+.investing h4 {
+font-weight: bold;
+font-size: 20px;
+text-decoration: underline;
+top: -50px;
+}
