@@ -17,7 +17,7 @@ margin-bottom: -20px;
 }
 
 .investing h3 {
-font-size: 30px;
+font-size: 36px;
 margin-bottom: -10px;
 }
 
@@ -27,3 +27,14 @@ font-size: 20px;
 text-decoration: underline;
 top: -50px;
 }
+
+.divider {
+    border-top: 3px solid black;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    position: relative;
+    margin-top: 50px;
+  }
