@@ -28,6 +28,14 @@ text-decoration: underline;
 top: -50px;
 }
 
+.watchlist a{
+  font-weight: bold;
+}
+
+.resources a{
+  font-weight: bold;
+}
+
 .divider {
     border-top: 3px solid black;
     position: absolute;
@@ -37,4 +45,63 @@ top: -50px;
     width: 120%;
     position: relative;
     margin-top: 50px;
+  }
+
+
+/*--------------------------- PIE CHART -------------------------------*/
+  .pie-chart {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    background:
+      radial-gradient(
+        circle closest-side,
+        transparent 66%,
+        white 0
+      ),
+      conic-gradient(
+        #4e79a7 0,
+        #4e79a7 40%,
+        #f28e2c 0,
+        #f28e2c 58%,
+        #e15759 0,
+        #e15759 75%,
+        #76b7b2 0,
+        #76b7b2 100%
+    );
+    position: relative;
+    width: 500px;
+    min-height: 350px;
+    top:180px;
+    margin: 0;
+    outline: 1px solid #ccc;
+  }
+  .pie-chart h2 {
+    position: absolute;
+    margin: 1rem;
+  }
+  .pie-chart cite {
+    position: absolute;
+    bottom: 0;
+    font-size: 80%;
+    padding: 1rem;
+    color: gray;
+  }
+  .pie-chart figcaption {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: smaller;
+    text-align: right;
+  }
+  .pie-chart span:after {
+    display: inline-block;
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.4em;
+    height: 0.8em;
+    border-radius: 0.2em;
+    background: currentColor;
   }
