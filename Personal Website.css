@@ -439,4 +439,33 @@ overflow-x: hidden;
 }
  */
 
+ .fa {
+  padding: 12px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-file-text {
+  background:black;
+  color: white;
+}
+
+.fa:visited {color:white;}
